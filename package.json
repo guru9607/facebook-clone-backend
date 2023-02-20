@@ -1,0 +1,27 @@
+{
+  "name": "facebook-clone-backend",
+  "version": "1.0.0",
+  "description": "Backend for facebook clone social media application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guru9607/facebook-clone-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guru9607/facebook-clone-backend/issues"
+  },
+  "homepage": "https://github.com/guru9607/facebook-clone-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongoose": "^6.9.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20"
+  }
+}
